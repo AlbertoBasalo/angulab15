@@ -6,11 +6,12 @@
 
 - 🚚 Install dependencies `npm i`
 
-- 🏭 Build the Home lib `bg build home` to run the app.
+- 🏭 Build the Home Lib `npm run build home`.
 
-- 🚀 Execute `npm start` to run the app.
+- 🚀 Execute `npm start` to run the main App.
 
 - 📕 Read the `docs` folder content for more info.
+- 🍳 There are a [CLI journal](./docs/CLI.md) with all the run commands.
 
 ---
 

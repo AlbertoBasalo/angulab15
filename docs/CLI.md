@@ -1,9 +1,11 @@
 # CLI journal
 
+> A detailed [list of commands executed](./commands.sh) for recreate the scaffolding of this workspace.
+
 ## Create empty workspace
 
 ```bash
-ng new ng-ws-15 --create-application=false
+ng new angulab15 --create-application=false
 ```
 
 ## Create main app called www
@@ -29,7 +31,7 @@ ng g lib home --prefix=home --project-root=projects/routes/home
 ng g c home -c=OnPush --flat --project=home --skip-selector=true --standalone=true --style=none -t --type=page
 # export the HomePage on entry point file
 # build
-ng build home
+npm run build home
 ```
 
 ## Add routing
