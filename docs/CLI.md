@@ -31,3 +31,19 @@ ng g c home -c=OnPush --flat --project=home --skip-selector=true --standalone=tr
 # build
 ng build home
 ```
+
+## Add routing
+
+```bash
+# add a routes file with this config for empty path
+# loadComponent: () => import('home').then((c) => c.HomePage),
+
+# Add routing providers to main bootstrap
+# providers: [importProvidersFrom(RouterModule.forRoot(appRoutes))],
+
+# Add router outlet to root component
+# imports: [CommonModule, RouterModule],
+
+# 🚀 start
+npm start
+```
