@@ -1,10 +1,8 @@
 # AnguLab15
 
-> A sample project for Angular15 workshop demos
+> A [sample project repository](https://github.com/AlbertoBasalo/angulab15/) for Angular15 workshop demos
 
 ![anguLab](docs/angulab.png)
-
-[Repository](https://github.com/AlbertoBasalo/angulab15/)
 
 ## Instructions to execute
 
