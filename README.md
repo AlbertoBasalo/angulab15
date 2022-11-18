@@ -1,6 +1,8 @@
-# Angulab15
+# AnguLab15
 
 > A sample project for Angular15 workshop demos
+
+![anguLab](docs/angulab.png)
 
 [Repository](https://github.com/AlbertoBasalo/angulab15/)
 
@@ -10,7 +12,8 @@
 
 - 🚀 Execute `npm start` to run the main App.
 
-- 📕 Read the `docs` folder content for more info.
+- 📕 Read the [`docs`](./docs/) folder content for more info.
+
 - 🍳 There are a [CLI journal](./docs/CLI.md) with all the run commands.
 
 ---
