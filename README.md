@@ -1,8 +1,8 @@
 # AnguLab15
 
-> A [sample project repository](https://github.com/AlbertoBasalo/angulab15/) for Angular15 workshop demos
-
 ![anguLab](docs/angulab.png)
+
+> A [sample project repository](https://github.com/AlbertoBasalo/angulab15/) for Angular15 workshop demos
 
 ## Instructions to execute
 
@@ -17,8 +17,6 @@
 - 📕 Read the [`docs`](./docs/) folder content for more info.
 
 - 🍳 There are a [CLI journal](./docs/CLI.md) with all the run commands.
-
----
 
 ## Workspace scaffolding
 
