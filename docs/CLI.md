@@ -15,5 +15,5 @@ ng g app www --prefix=www --project-root=projects/apps --routing=false --style=c
 # Generate new standalone root component
 ng g c app -c=OnPush --flat --project=www --standalone=true --selector=www-root --style=none -t
 
-# Add to
+# Add to main
 ```
