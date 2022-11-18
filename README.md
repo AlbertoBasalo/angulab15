@@ -6,6 +6,8 @@
 
 - 🚚 Install dependencies `npm i`
 
+- 🏭 Build the Home lib `bg build home` to run the app.
+
 - 🚀 Execute `npm start` to run the app.
 
 - 📕 Read the `docs` folder content for more info.
