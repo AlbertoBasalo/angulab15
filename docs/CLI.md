@@ -2,48 +2,50 @@
 
 > A detailed [list of commands executed](./commands.sh) for recreate the scaffolding of this workspace.
 
-## Create empty workspace
+## ✨ Create an empty workspace
 
 ```bash
 ng new angulab15 --create-application=false
 ```
 
-## Create main app called www
+## ✨ Generate the main app called www
 
 ```bash
 ng g app www --prefix=www --project-root=projects/apps --routing=false --style=css -s -t
-# Remove all app files 😨
+# 🗑️ Remove all app folder files 😨
 
-# Generate new standalone root component
+# ✨ Generate a new standalone root component
 ng g c app -c=OnPush --flat --project=www --standalone=true --selector=www-root --style=none -t
 
-# Add to main
+# ✍🏼 Bootstrap application with the new component on main.js
+# bootstrapApplication(AppComponent);
 ```
 
-## Create a library for home page
+## ✨ Generate a library for home page component
 
 ```bash
-# generate a route library
 ng g lib home --prefix=home --project-root=projects/routes/home
-# Remove all lib files and clear al exports from entry point 😨
+# 🗑️ Remove all lib files and clear al exports from entry point 😨
 
-# generate a page component
+# ✨ Generate a page component
 ng g c home -c=OnPush --flat --project=home --skip-selector=true --standalone=true --style=none -t --type=page
-# export the HomePage on entry point file
-# build
+# 🚢 export the HomePage component on the entry public-api.ts file
+
+# 🏭 Build the library to dist folder
 npm run build home
 ```
 
-## Add routing
+## 🗺️ Add routing
 
 ```bash
-# add a routes file with this config for empty path
+# ➕ Create a routes.ts file on the main app with this config for empty path
 # loadComponent: () => import('home').then((c) => c.HomePage),
 
-# Add routing providers to main bootstrap
+# ✍🏼 Add routing providers to the bootstrap on main.ts file
 # providers: [importProvidersFrom(RouterModule.forRoot(appRoutes))],
 
-# Add router outlet to root component
+# ✍🏼 Add router outlet to the root component,
+# 😏 remember to import RouterModule at component level
 # imports: [CommonModule, RouterModule],
 
 # 🚀 start

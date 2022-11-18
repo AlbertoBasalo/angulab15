@@ -6,6 +6,10 @@
 
 [Repository](https://github.com/AlbertoBasalo/angulab15/)
 
+## Instructions to execute
+
+- ➿ Clone this repo
+
 - 🚚 Install dependencies `npm i`
 
 - 🏭 Build the Home Lib `npm run build home`.
@@ -15,6 +19,16 @@
 - 📕 Read the [`docs`](./docs/) folder content for more info.
 
 - 🍳 There are a [CLI journal](./docs/CLI.md) with all the run commands.
+
+---
+
+## Workspace scaffolding
+
+- 📂 projects
+  - 📂apps
+    - 🌐 www
+  - 📂 routes
+    - 🗺️ home
 
 ---
 

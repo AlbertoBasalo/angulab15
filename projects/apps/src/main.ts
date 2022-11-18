@@ -7,3 +7,5 @@ import { appRoutes } from './app/routes';
 bootstrapApplication(AppComponent, {
   providers: [importProvidersFrom(RouterModule.forRoot(appRoutes))],
 });
+
+bootstrapApplication(AppComponent);
